@@ -161,5 +161,5 @@ const body = document.querySelector("body")
 data.forEach(obj => {
   const theArticle = articleMaker(obj)
   body.appendChild(theArticle)
-  console.log(theArticle)
+  // console.log(theArticle)
 })
